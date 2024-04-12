@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\EkzamenShabalin\bin\Debug\EkzamenShabalin.exe.config
+C:\Users\student\Desktop\EkzamenShabalin\bin\Debug\EkzamenShabalin.exe
+C:\Users\student\Desktop\EkzamenShabalin\bin\Debug\EkzamenShabalin.pdb
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\App.g.cs
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin_MarkupCompile.cache
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin_MarkupCompile.lref
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.g.resources
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.Properties.Resources.resources
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.csproj.GenerateResource.cache
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.exe
+C:\Users\student\Desktop\EkzamenShabalin\obj\Debug\EkzamenShabalin.pdb

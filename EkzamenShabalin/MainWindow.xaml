@@ -1,0 +1,41 @@
+﻿<Window x:Class="EkzamenShabalin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EkzamenShabalin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--Главаня-->
+        <StackPanel Name="Сцена1" Visibility="Visible">
+            <TextBlock Name="НаСцену1" Text="Хлеб" FontSize="30" TextAlignment="Center" Height="40" Width="200" Margin="0,150,0,0" Background="#33000000" MouseDown="НаСцену1_MouseDown" Foreground="#FF79B336"/>
+            <TextBlock Name="НаСцену2" Text="Заказ" FontSize="30" TextAlignment="Center" Height="40" Width="200" Margin="0,10,0,0" Background="#33000000" MouseDown="НаСцену2_MouseDown" IsEnabled="False" Foreground="#FFBF2929"/>
+
+            <TextBlock Text="Чтобы открыть сцену 'Заказ' выполните действия в сцене 'Хдеб'." TextWrapping="Wrap" FontSize="30" Height="100" Width="500" TextAlignment="Center" Margin="0,40,0,0"/>
+        </StackPanel>
+        <!--Задаине 1-->
+        <StackPanel Name="Сцена2" Visibility="Hidden" Margin="0,-330,0,0">
+            <TextBlock Name="НазадСцена2" Text="Назад" FontSize="30" TextAlignment="Center" Height="40" Width="150" Background="#33000000" MouseDown="НазадСцена2_MouseDown"/>
+            <TextBlock Text="Вес:" FontSize="30" TextAlignment="Center" Height="40" Width="200" TextDecorations="Underline"/>
+            <TextBox Name="Вес" FontSize="30" TextAlignment="Center" Height="40" Width="400" Margin="0,10,0,0"/>
+            <TextBlock Text="Цена (за кг.):" FontSize="30" TextAlignment="Center" Height="40" Width="200" TextDecorations="Underline"/>
+            <TextBox Name="Цена" FontSize="30" TextAlignment="Center" Height="40" Width="400" Margin="0,10,0,0"/>
+            <TextBlock Text="Найти" Name="НайтиРезультат" FontSize="30" TextAlignment="Center" Height="40" Width="150" Margin="600,-40,0,0" Background="#33000000" MouseDown="НайтиРезультат_MouseDown"/>
+            <TextBlock Text="Результат:" FontSize="30" TextAlignment="Center" Height="40" Width="200" TextDecorations="Underline" Margin="0,30,0,0"/>
+            <TextBlock Name="Результат" FontSize="30" TextAlignment="Center" Height="40" Width="400" Margin="0,10,0,0"/>
+        </StackPanel>
+        <!--Задание 2-->
+        <StackPanel Name="Сцена3" Visibility="Hidden" Margin="0,-350,0,0">
+            <TextBlock Name="НазадСцена3" Text="Назад" FontSize="30" TextAlignment="Center" Height="40" Width="150" Background="#33000000" MouseDown="НазадСцена3_MouseDown"/>
+            <TextBlock Text="Название хлеба:" FontSize="30" TextAlignment="Center" Height="40" Width="300" TextDecorations="Underline"/>
+            <TextBox Name="НазваниеХлеба" FontSize="30" TextAlignment="Center" Height="40" Width="400" Margin="0,10,0,0"/>
+            <TextBlock Text="Кол-во:" FontSize="30" TextAlignment="Center" Height="40" Width="200" TextDecorations="Underline"/>
+            <TextBox Name="КолвоСцена3"  FontSize="30" TextAlignment="Center" Height="40" Width="400" Margin="0,10,0,0"/>
+            <TextBlock Name="НайтиСцена3" Text="Найти" FontSize="30" TextAlignment="Center" Height="40" Width="150" Margin="600,-40,0,0" Background="#33000000" MouseDown="НайтиСцена3_MouseDown"/>
+            <TextBlock Text="Общая стоимость:" FontSize="30" TextAlignment="Center" Height="40" Width="300" TextDecorations="Underline" Margin="0,30,0,0"/>
+            <TextBlock Name="ОтветСцена3" FontSize="30" TextAlignment="Center" Height="40" Width="400" Margin="0,10,0,0"/>
+        </StackPanel>
+
+    </StackPanel>
+</Window>
